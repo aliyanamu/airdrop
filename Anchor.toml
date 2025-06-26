@@ -1,0 +1,21 @@
+[toolchain]
+package_manager = "yarn"
+
+[features]
+resolution = true
+skip-lint = false
+
+[programs.localnet]
+# solana_t3 = "6wsNeAD9CepC2bFv3byrubxR2fniQu2anMUuzrz62K9w"
+solana_t3 = "52ZVHRuyZTAqSAoWF8V4Fn1BiFwWRoqj9YVxE5D4u5Nj"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "devnet"
+# wallet = "~/.config/solana/id.json"
+wallet = "sol-local-wallet.json"
+
+[scripts]
+test = "cargo test"

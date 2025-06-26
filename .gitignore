@@ -1,0 +1,39 @@
+# Node modules and Yarn lock
+node_modules/
+yarn.lock
+
+# Rust build artifacts
+target/
+
+# Anchor build artifacts
+.mpl-cache/
+
+# Solana keypairs and wallet files
+*.json
+!package.json
+!tsconfig.json
+
+# TypeScript build output
+*.tsbuildinfo
+
+# Logs
+*.log
+
+# Miscellaneous
+.DS_Store
+
+# Ignore temp and test artifacts
+*-wallet.json
+
+# Ignore IDE/editor folders
+.vscode/
+.idea/
+
+# Ignore migrations output
+migrations/*.js
+
+# Ignore compiled programs
+programs/*/target/
+
+# Ignore deploy artifacts
+**/deploy/
