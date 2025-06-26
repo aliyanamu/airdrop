@@ -22,6 +22,9 @@ target/
 # Miscellaneous
 .DS_Store
 
+# Environment files
+.env*
+
 # Ignore temp and test artifacts
 *-wallet.json
 
